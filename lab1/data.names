@@ -1,0 +1,57 @@
+1. Title: Breast Cancer Wisconsin (Diagnostic) Data Set
+
+2. Description: Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. n the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34].
+
+3. Available at: Kaggle: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+                 UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
+                 UW CS ftp server: ftp ftp.cs.wisc.edu cd math-prog/cpo-dataset/machine-learn/WDBC/
+
+
+4. Class distribution: 357 benign, 212 malignant
+
+5. Missing attribute values: none
+
+6. Number of Attributes: 31 + output attribute
+
+7. Attribute information:
+
+   Input variables:
+   1 - ID 
+   
+   2 - radius_mean
+   3 - texture_mean (standard deviation of gray-scale values) 
+   4 - perimeter_mean
+   5 - area_mean
+   6 - smoothness_mean (local variation in radius lengths)
+   7 - compactness_mean (perimeter^2 / area - 1.0)
+   8 - concavity_mean
+   9 - concave points_mean
+   10 - symmetry_mean
+   11 - fractal_dimension_mean
+   
+   12 – radius_se
+   13 – texture_se
+   14 – perimeter_se
+   15 – area_se
+   16 – smoothness_se
+   17 – compactness_se
+   18 – concavity_se
+   19 – concave points_se
+   20 – symmetry_se
+   21 – fractal_dimension_se
+   
+   22 – radius_worst
+   23 – texture_worst
+   24 – perimeter_worst
+   25 – area_worst
+   26 – smoothness_worst
+   27 – compactness_worst
+   28 – concavity_worst
+   29 – concave points_worst
+   30 – symmetry_worst
+   31 – fractal_dimension_worst
+   
+   The mean, standard error and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. 
+   
+   Output variable: 
+   32 - diagnosis (M = malignant, B = benign)
